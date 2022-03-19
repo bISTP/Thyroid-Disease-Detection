@@ -12,8 +12,8 @@ outliers_lcap = pickle.load(open('outliers_lcap.pkl', 'rb'))
 outliers_ucap = pickle.load(open('outliers_ucap.pkl', 'rb'))
 missing_imputation = pickle.load(open('missing_imputation.pkl', 'rb'))
 
-model = pickle.load(open('models\RandomForestTuned2.pkl', 'rb'))
-scaler = pickle.load(open('models\scaler.pkl', 'rb'))
+model = pickle.load(open('RandomForestTuned2.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 @app.route('/', methods=['GET'])
 def Home():
