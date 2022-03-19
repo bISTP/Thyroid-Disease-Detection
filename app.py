@@ -8,7 +8,7 @@ import sklearn
 
 app = Flask(__name__)
 
-outliers_lcap = pickle.load(open('object-instances\outliers_lcap.pkl', 'rb'))
+outliers_lcap = pickle.load(open('outliers_lcap.pkl', 'rb'))
 outliers_ucap = pickle.load(open('object-instances\outliers_ucap.pkl', 'rb'))
 missing_imputation = pickle.load(open('object-instances\missing_imputation.pkl', 'rb'))
 
