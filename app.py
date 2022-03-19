@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request
 import jsonify
 import requests
@@ -7,6 +8,10 @@ import pandas as pd
 import sklearn
 
 app = Flask(__name__)
+
+cwd = os.getcwd()
+files = os.listdir(cwd)
+print("Files in %r: %s" % (cwd, files))
 
 outliers_lcap = pickle.load(open('object-instances\outliers_lcap.pkl', 'rb'))
 outliers_ucap = pickle.load(open('object-instances\outliers_ucap.pkl', 'rb'))
