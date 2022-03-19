@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-import os
 import jsonify
 import requests
 import pickle
@@ -23,7 +22,6 @@ def Home():
 @app.route("/predict", methods=['POST'])
 def predict():
     if request.method == 'POST':
-        print(os.listdir())
         data_dict = {}
 
         if request.form['FTI']=='':
