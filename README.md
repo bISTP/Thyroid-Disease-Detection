@@ -8,9 +8,9 @@ The main goal is to predict the estimated risk on a patient's chance of obtainin
 The classical machine learning tasks like Data Exploration, Data Cleaning, Exploratory Data Analysis, Feature Engineering, Model Building and Model Testing were performed. Different Models for Binary Classification like Logistic Regression, Random Forest, MLP etc. were Trained, Tested and Evaluated. The model was deployed.
 
 ## Dataset:
-### Data Source [clcik here](https://archive.ics.uci.edu/ml/datasets/thyroid+disease)
-### Dataset ![clcik here](input/thyroid0387.data)
-### Data Dictionary ![clcik here](/thyroid0387.names)
+### [Data Source](https://archive.ics.uci.edu/ml/datasets/thyroid+disease)
+### [Dataset](input/thyroid0387.data)
+### [Data Dictionary](/thyroid0387.names)
 
 ## WebApp
-### Thyroid Disease Detection App [clcik here](https://thyroid-disease-detection-ml.herokuapp.com/)
+### [Thyroid Disease Detection App](https://thyroid-disease-detection-ml.herokuapp.com/)
