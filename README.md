@@ -9,4 +9,8 @@ The classical machine learning tasks like Data Exploration, Data Cleaning, Explo
 
 ## Dataset:
 ### Data Source(https://archive.ics.uci.edu/ml/datasets/thyroid+disease)
-![test](input/thyroid0387.data)
+### Dataset(input/thyroid0387.data)
+### Data Dictionary(/thyroid0387.names)
+
+## WebApp
+### Thyroid Disease Detection App(https://thyroid-disease-detection-ml.herokuapp.com/)
